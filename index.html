@@ -5,12 +5,40 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Dotman Footwears</title>
+  
+  <!-- Icons CDN !-->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  
+  <!-- Main Stylesheets !-->
   <link rel="stylesheet" href="./styles/mobile.css">
   <link rel="stylesheet" href="./styles/desktop.css">
 </head>
 
 <body>
-<p>Hello</p>
+  <header>
+       <img src="/images/d_logo.png" alt="Dotman Footwears Logo"/>
+       <span class="darker">Dotman Footwears</span>
+       <i class="bx bx-menu-alt-left" onclick="toggleNav()" id="trigger"></i>
+     <div class="nav">
+       <a href="#about"><span>About</span></a>
+       <a href="#services"><span>Services</span></a>
+       <a href="#contact"><span>Contact</span></a>
+    </div>
+  </header>
+ 
+ <div id="hero">
+ <div class="msg">
+ <h1 class="darker">Home of <span class="yellow">Quality</span> Footwears</h1>
+ 
+ <div>
+ <button class="l">Learn More</button>
+ <button class="r">Our Gallery</button>
+ </div>
+ 
+ </div>
+ <img src="/images/yellow_shoe.jpg" alt="Yellow Leather Shoe"/>
+ </div>
 </body>
 
 </html>
