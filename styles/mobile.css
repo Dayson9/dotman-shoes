@@ -15,6 +15,11 @@ scroll-behavior: smooth;
 transition: .4s;
 }
 
+.underline{
+text-decoration: underline;
+text-decoration-style: dotted;
+}
+
 .dark{
 color: hsla(235, 15%, 31%, 1);
 }
@@ -49,8 +54,8 @@ align-content: center;
 }
 
 header > img{
-height: 50px;
-width: 50px;
+height: 40px;
+width: 40px;
 align-self: center;
 margin-left: 10px;
 }
@@ -59,7 +64,7 @@ header > span{
 font-size: 20px;
 font-weight: 650;
 align-self: center;
-margin-left: -27%;
+margin-left: -26%;
 }
 
 header > i{
@@ -117,12 +122,14 @@ width: 100%;
 }
 
 .msg button{
-width: 35%;
-height: 45px;
+width: 37%;
+height: 48px;
 border: none;
 border-radius: 5px;
 color: white;
 font-size: 16px;
+font-weight: 600;
+font-family: "Raleway";
 }
 
 .l{
@@ -138,4 +145,11 @@ transform: translateX(5px);
 #hero img{
 width: 60%;
 height: 30%;
+}
+
+#about{
+width: 100%;
+height: auto;
+text-align: center;
+padding-block: 5%;
 }
